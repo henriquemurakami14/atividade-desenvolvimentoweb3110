@@ -1,0 +1,5 @@
+favicon.io // favicon
+
+google fonts // fontes de texto
+
+figma // estrutura do design do site
