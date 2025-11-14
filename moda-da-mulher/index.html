@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Moda da Mulher</title>
-    <link href="assets/styles/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="assets/styles/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/favicon/favicon-16x16.png" type="image/png">
     <link rel="stylesheet" href="assets/styles/app.css">
 </head>
@@ -59,17 +59,45 @@
     </header>
     <!-- Header is finished -->
 
-    <div class="navbar navbar-expand-lg navbar-dark bg-cor-secundaria">
+    <!-- NavBar is starting -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-cor-secundaria">
 
         <div class="container">
 
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal">
                 <i class="navbar-toggler-icon"></i>
             </button>
 
+            <div class="collapse navbar-collapse" id="menu-principal">
+                
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Moda Feminina</a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item" href="#"></a>Lançamentos</li>
+                            <li><a class="dropdown-item" href="#"></a>Moda Casual</li>
+                            <li><a class="dropdown-item" href="#"></a>Moda Praia</li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Calçados</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
         </div>
 
-    </div>
+    </nav>
+    <!-- NavBar is finished -->
 
     <h1>Hello, world!</h1>
     
