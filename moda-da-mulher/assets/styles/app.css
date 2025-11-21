@@ -10,6 +10,10 @@
     --cor-secundaria: #343A40;
 }
 
+body {
+    font-family: 'Abel', Arial, sans-serif;
+}
+
 .bg-cor-primaria {
     background-color: var(--cor-primaria);
 }
@@ -18,7 +22,45 @@
     background-color: var(--cor-secundaria);
 }
 
-body {
-    font-family: 'Abel', Arial, sans-serif;
+.text-primary {
+    color: var(--cor-primaria) !important;
 }
 
+.text-secondary {
+    color: var(--cor-secundaria) !important;
+}
+
+/* Header */
+header {
+    
+    & .site-search {
+
+        & .btn {
+        
+            right: 10px;
+            top: 3px;
+            z-index: 9;
+            border: none;
+        
+        }
+
+        .badge {
+            top: -1;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            padding: 0;
+            padding-top: 2px;
+        }
+    }
+
+}
+
+/* Footer */
+
+footer {
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+}
