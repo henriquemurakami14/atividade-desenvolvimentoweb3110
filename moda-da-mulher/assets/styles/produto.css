@@ -7,5 +7,18 @@
         color: var(--cor-primaria);
     }
 
+}
 
+.produto {
+    & .bi-star-fill {
+        color: var(--cor-primaria);
+    }
+    & .bi-star {
+        color: var(--cor-primaria);
+    }
+
+    .preco {
+        font-size: 40px;
+        font-weight: bold;
+    }
 }
